@@ -145,7 +145,7 @@ const Index = () => {
                     onClick={() => clickBtn(item)}
                     sx={{
                       color: item.value === "X" ? "white" : "yellow",
-                      background: item.isWin === true ? "blue" : "transparent",
+                      background: item.isWin === true ? "#03a9f4" : "transparent",
                     }}
                   >
                     {item.value}
