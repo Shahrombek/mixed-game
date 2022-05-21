@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.LikeDislike {
+  font-family: "Montserrat", sans-serif !important;
+  height: 100vh;
+  background-color: #5600ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.CardSection {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  width: 255px !important;
+  height: 400px;
+}
+.Cards {
+  -webkit-user-select: none;
+  border: 3px solid white;
+  border-radius: 20px !important;
+  background-color: #5600ff !important;
+  color: white !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  position: absolute;
+  cursor: pointer;
+  transition:1s !important;
+}
+
+.card1 {
+  top: 0;
+  left: 50%;
+  transform: translateX(-62%);
+  z-index: 0;
+}
+.card2 {
+  top: 10px;
+  left: calc(50% + 10px);
+  transform: translateX(-62%);
+  z-index: 1;
+}
+.card3 {
+  top: 20px;
+  left: calc(50% + 20px);
+  transform: translateX(-62%);
+  z-index: 2;
+}
+.card4 {
+  top: 30px;
+  left: calc(50% + 30px);
+  transform: translateX(-62%);
+  z-index: 3;
+}
+.card5 {
+  top: 40px;
+  left: calc(50% + 40px);
+  transform: translateX(-62%);
+  z-index: 4;
+}
+
+.img {
+  width: 40px;
+  cursor: pointer;
+}
+
+.icon {
+  cursor: pointer;
+  color: white;
+  font-weight: 600;
+}

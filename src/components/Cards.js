@@ -13,7 +13,11 @@ export default function Cards({ title, url }) {
   return (
     <Card
       onClick={ChangeGame}
-      sx={{ width: { xs: 150, sm: 250, md: 300, lg: 345 }, borderRadius: 4, boxShadow:'0px 2px 10px 0px rgba(34, 60, 80, 0.5)' }}
+      sx={{
+        width: { xs: 150, sm: 250, md: 300, lg: 345 },
+        borderRadius: 4,
+        boxShadow: "0px 2px 10px 0px rgba(34, 60, 80, 0.5)",
+      }}
     >
       <CardActionArea>
         <CardMedia

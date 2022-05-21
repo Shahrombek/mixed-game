@@ -1,11 +1,41 @@
-*{
+* {
   padding: 0;
   margin: 0;
 }
 body {
   margin: 0;
-  font-family: 'Fredoka One', cursive !important;
+  font-family: "Fredoka One", cursive !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+button span {
+  display: none;
+}
+.message {
+  padding: 5px;
+  margin: 0;
+  background-color: transparent;
+  flex: 1;
+  min-width: 150px !important;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  font-family: "Montserrat";
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+.circleChat {
+  position: fixed;
+  z-index: 101;
+  background: #bebebe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.6s;
+  cursor: pointer;
+}
+
 

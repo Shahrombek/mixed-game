@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.TicTacToe {
+  font-family: "Fredoka One", cursive !important;
+  height: 100vh;
+  background-color: #ff0051;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container {
+  max-width: 500;
+}
+
+.title {
+  font-size: 35px;
+  margin-bottom: 40px;
+}
+
+.button {
+  min-width: 60px !important;
+  height: 60px !important;
+  border: 3px solid white !important;
+  border-radius: 20px !important;
+  margin: 0 auto !important;
+  font-size: 30px !important;
+  font-family: "Fredoka One", cursive !important;
+}
+.button span {
+  display: none;
+}
+
+.restarts {
+  text-transform: capitalize !important;
+  font-family: "Montserrat", sans-serif !important;
+  background-color: white !important;
+  border-radius: 10px !important;
+  margin-top: 50px !important;
+  padding: 5px 20px !important;
+  color: #ff0051 !important;
+}

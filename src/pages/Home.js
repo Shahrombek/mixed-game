@@ -5,6 +5,7 @@ import Game1 from "../assets/game1.jpg";
 import Game2 from "../assets/game2.jpg";
 import Game3 from "../assets/game3.jpg";
 import Game4 from "../assets/game4.jpg";
+import Bg from "../assets/bg.jpeg";
 
 const Home = () => {
   return (
@@ -15,6 +16,11 @@ const Home = () => {
         justifyContent: "center",
         height: "100vh",
         gap: "20px",
+        backgroundImage: `url(https://cdn.cssauthor.com/wp-content/uploads/2015/01/Lazeez-watercolor-textures-4K-UDH-backgrounds.jpg?strip=all&lossy=1&resize=1000%2C500&ssl=1)`,
+        backgroundRepeat: "no-repeat",
+        width: "100%",
+        backgroundSize: "cover",
+        backgroundPosition:'center'
       }}
     >
       <Box
