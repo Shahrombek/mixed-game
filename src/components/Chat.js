@@ -20,7 +20,10 @@ const Chat = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setChatData([...chatData, inputRef.current.value]);
+
+    if(inputRef.current.value.trim() !== ''){
+      setChatData([...chatData, inputRef.current.value]);
+    }
     inputRef.current.value = "";
   };
 

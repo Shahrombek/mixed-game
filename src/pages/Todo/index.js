@@ -15,7 +15,9 @@ const Index = () => {
     var todo = inputRef.current.value;
 
     const obj = { id: data.length, title: todo, isCheck: false };
-    setData([...data, obj]);
+    if(todo.trim() !== ''){
+      setData([...data, obj]);
+    }
     inputRef.current.value = "";
   };
 
